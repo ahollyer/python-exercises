@@ -4,23 +4,20 @@
 
 def main():
 
-    while True:
-        try:
-            num = int(input("Enter a number from 0-6: "))
-            break
-        except ValueError:
-            print("Your input must be a number. Try again.")
-
-    def day_of_week(num):
+    def day_of_week():
         days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
 
-        if num < len(days):
-            print("You chose {num}. The corresponding weekday is {day}.".format(num=num, day=days[num]))
-            return
-        else:
-            print("The number you chose has no corresponding weekday. Please choose a number from 0-6.")
+        while True:
+            try:
+                num = int(input("Enter a number from 0-6: "))
+                print("You chose {num}. The corresponding weekday is {day}.".format(num=num, day=days[num]))
+                break
+            except ValueError:
+                print("Your input must be a number. Try again.")
+            except IndexError:
+                print("The number you chose has no corresponding weekday. Please choose a number from 0-6.")
 
 
-    day_of_week(num)
+    day_of_week()
 
 main()
