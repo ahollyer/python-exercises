@@ -20,6 +20,6 @@ def main():
     tip = bill * tip_percentage
 
     # print message with tip amount
-    print("\nYour bill was ${bill}, and your service was {service}.\n\nYou should tip ${tip}\n".format(bill=bill, service=service, tip=tip))
+    print("\nYour bill was ${bill:.2f}, and your service was {service}.\n\nYou should tip ${tip:.2f}\n".format(bill=bill, service=service, tip=tip))
 
 main()
