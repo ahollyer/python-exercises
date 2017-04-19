@@ -71,9 +71,13 @@ ex9_list1 = [[1, 3], [2, 4]]
 ex9_list2 = [[5,2], [1, 0]]
 ex9_sum = []
 def add_matrices(a, b):
+    # Iterate over list
     for i in range(0, len(a)):
+        # Iterate over sub-list
+        temp = []
         for j in range(0, len(a[i])):
-            ex9_sum.append(a[i][j] + b[i][j])
+            temp.append(a[i][j] + b[i][j])
+        ex9_sum.append(temp)
     return ex9_sum
 print("9. Matrix Addition:\n", add_matrices(ex9_list1, ex9_list2))
 
@@ -92,3 +96,17 @@ def dedup(list):
 print("11. De-dup:\nOriginal List:", ex11_original, "\nDe-Duped List:", dedup(ex11_original))
 
 # Bonus: Matrix Multiplication
+bonus1 = [[2, -2], [5, 3]]
+bonus2 = [[-1, 4], [7, -6]]
+def multiply_matrices(a, b):
+    product = []
+    for i in range(len(a)):
+        temp = []
+        for j in range(len(a[i])):
+            sum = 0
+            for k in range(len(b)):
+                sum += (a[i][k] * b[k][j])
+            temp.append(sum)
+        product.append(temp)
+    return product
+print("Bonus - Matrix Multiplication:", multiply_matrices(bonus1, bonus2))
