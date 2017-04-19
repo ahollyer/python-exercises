@@ -14,6 +14,8 @@ Each program has a specification at the beginning of the script. To run an inter
 * guess_the_number.py - Try to determine a random number 1-100 within 5 guesses.
 * tip_calc2.py - Supply the bill amount, number of guests, and tip percentage to receive the cost per guest.
 * degree_converter.py - Supply a temperature in Celsius or Fahrenheit and have it converted.
+* caesar_cipher.py - Provide a string and shift key to encrypt or decrypt messages.
+* banner.py - Supply a message and the program will print a banner with your message.
 
 ---------
 ### To Do's
