@@ -1,6 +1,6 @@
 # degree_conversion.py
 # by Aspen
-# Accepts degrees as integer, converts between fahrenheit and celcius, and returns degrees as integer
+# Asks for degrees and units, converts between Fahrenheit and Celsius, and prints the converted temperature
 
 print("***\nINSTRUCTIONS: This program converts between Celsius and Fahrenheit. First, enter your units, then enter the temperature.\n***\n")
 

@@ -1,6 +1,6 @@
 # guess_the_number.py
 # By Aspen
-# Accepts a number and returns whether it is higher than, lower than, or equal to a random number
+# Generates a random number 0-100, asks for guesses, and prints whether the guess was too high or low. Accepts 5 guesses before win/lose.
 
 import random
 

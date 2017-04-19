@@ -1,6 +1,6 @@
 # madlib.py
 # by Aspen Hollyer
-# Accepts string input and returns a madlib string
+# Asks for input as strings, generates and prints a madlib string
 
 def main():
 

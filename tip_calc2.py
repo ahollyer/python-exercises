@@ -1,6 +1,6 @@
 # tip_calc.py
 # by Aspen
-# Accepts a bill amount, service level, and number of patrons. Returns price per patron including appropriate tip.
+# Accepts a bill amount, service level, and number of patrons. Prints price per patron including appropriate tip.
 
 print("\n***\nINSTRUCTIONS: This program accepts your bill amount, number of patrons, and level of satisfaction with your service. It splits your check and returns the price per patron including appropriate tip.\n***\n")
 

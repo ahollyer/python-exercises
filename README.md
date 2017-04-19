@@ -17,6 +17,7 @@ Each program has a specification at the beginning of the script. To run an inter
 
 ---------
 ### To Do's
+
 - [ ] Add exception handling to degree_conversion.py
 - [x] Format tip_calc.py to display 2 decimal places
 - [ ] Complete Bonus Problem in list_exercises.py

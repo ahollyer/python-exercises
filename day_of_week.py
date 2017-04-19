@@ -1,6 +1,6 @@
 # day_of_week.py
 # by Aspen
-# Accepts a number and returns the corresponding day of the week
+# Accepts an integer 0-6 and prints the corresponding weekday as a string
 
 def main():
 

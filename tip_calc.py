@@ -1,6 +1,6 @@
 # tip_calc.py
 # by Aspen
-# Accepts a bill amount and service level, and returns the appropriate tip amount.
+# Accepts a bill amount and service level, and prints the appropriate tip amount.
 
 print("\n***\nINSTRUCTIONS: This program accepts your bill amount and level of satisfaction with your service, and returns an appropriate tip amount.\n***\n")
 

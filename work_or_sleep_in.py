@@ -1,6 +1,6 @@
 # work_or_sleep_in.py
 # by Aspen
-# Accepts a number, converts it to the corresponding weekday, and returns an instruction to sleep in or get up.
+# Accepts a number, converts it to the corresponding weekday, and prints an instruction to sleep in or get up.
 
 def main():
 
