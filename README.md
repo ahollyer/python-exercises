@@ -23,7 +23,7 @@ Each program has a specification at the beginning of the script. To run an inter
 
 - [ ] Add exception handling to degree_conversion.py
 - [x] Format tip_calc.py to display 2 decimal places
-- [ ] Complete Bonus Problem in list_exercises.py
+- [x] Complete Bonus Problem in list_exercises.py
 - [x] Complete Ceasar Cipher in string_exercises.py
 - [ ] Create alternate Caesar Cipher using ord()
 - [ ] Add exception handling to guess_game_2.py
