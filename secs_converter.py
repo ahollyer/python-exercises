@@ -3,6 +3,7 @@
 # This program accepts a number of seconds and returns a number of minutes, hours, days, and years
 
 def main():
+    
     secs = int(input("How many seconds does it take? "))
     mins = secs / 60
     hours = mins / 60
