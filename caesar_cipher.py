@@ -5,13 +5,11 @@
 # 6. Caesar Cipher
 
 # Choose a string to translate
-str = "hello hi wxyz"
-# str = input("Enter a string to shift: ").lower()
+str = input("Enter a string to shift: ").lower()
 
 
 # Determine the amount to shift
-shift_key = 3
-# shift_key = int(input("How much do you want to shift? Enter an integer. Positive numbers encrypt, while negative numbers decrypt: "))
+shift_key = int(input("How much do you want to shift? Enter an integer. Positive numbers encrypt, while negative numbers decrypt: "))
 
 
 
@@ -27,13 +25,12 @@ def c_shift(str, shift_key):
     # Iterate over each character in the input string
     for char in str:
 
-        # Don't shift spaces; just add to shifted_str
-        if char == " ":
+        # Don't shift spaces or punctuation; just add to shifted_str
+        try:
+            i = chars.index(char)
+        except ValueError:
             shifted_str += char
             continue
-        else:
-            # Look up the character in chars
-            i = chars.index(char)
 
         # Apply the shift key
         try:
@@ -51,3 +48,6 @@ def c_shift(str, shift_key):
 print(str)
 print("Shifted:", c_shift(str, shift_key))
 print("Unshifted:", c_shift(c_shift(str, shift_key), -shift_key))
+
+puzzle = "lbh zhfg hayrnea jung lbh unir yrnearq"
+print("\nPuzzle:", puzzle + "\nDeciphered:", c_shift(puzzle, -13))
