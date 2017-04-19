@@ -37,7 +37,7 @@ def compare(s, g):
             print("Nope, too low. Guesses left:", tries)
             tries -=1
             g = get_guess()
-        print("You ran out of guesses! You lose.")
+    print("You ran out of guesses! You lose.")
 
 # ask user to play again
 def play_again():
