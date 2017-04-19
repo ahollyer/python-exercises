@@ -1,9 +1,9 @@
-# Python Programming Exercises for Digital Crafts Bootcamp
+# Python Programming Exercises
 
 ---------
 ### What is this?
 
-This repository contains various programming exercises in Python 3 assigned through Digital Crafts coding bootcamp.
+This repository contains various programs written in Python 3. These are learning exercises.
 
 -------
 ### Running the Programs
