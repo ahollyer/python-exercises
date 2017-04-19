@@ -46,12 +46,8 @@ print(leetspeak(str), "\n")
 # 5. Long-long vowels
 print("\n5. Long-long vowels:")
 def long_vowels(str):
-    listified = list(str)
-    for i in range(1, len(listified)):
-        if listified[i] == listified[i-1]:
-            if listified[i] == 'e' or listified[i] == 'o':
-                listified.insert(i, (listified[i] * 3))
-    translated_str = "".join(listified)
-    return translated_str
+    str = str.replace('ee', 'eeeee')
+    str = str.replace('oo', 'ooooo')
+    return str
 print("Normal: A good man feels happy.")
 print(long_vowels("Long-long vowels: A good man feels happy."), "\n")
