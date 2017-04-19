@@ -16,6 +16,7 @@ Each program has a specification at the beginning of the script. To run an inter
 * degree_converter.py - Supply a temperature in Celsius or Fahrenheit and have it converted.
 * caesar_cipher.py - Provide a string and shift key to encrypt or decrypt messages.
 * banner.py - Supply a message and the program will print a banner with your message.
+* guess_game_2.py - Think of a random number, and the program will try to guess your number.
 
 ---------
 ### To Do's
@@ -25,6 +26,7 @@ Each program has a specification at the beginning of the script. To run an inter
 - [ ] Complete Bonus Problem in list_exercises.py
 - [x] Complete Ceasar Cipher in string_exercises.py
 - [ ] Create alternate Caesar Cipher using ord()
+- [ ] Add exception handling to guess_game_2.py
 
 ----------
 If you have questions or want to learn together, feel free to e-mail me at aspen.hollyer@gmail.com
