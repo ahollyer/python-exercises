@@ -55,5 +55,3 @@ def long_vowels(str):
     return translated_str
 print("Normal: A good man feels happy.")
 print(long_vowels("Long-long vowels: A good man feels happy."), "\n")
-
-# 6. Caesar Cipher
