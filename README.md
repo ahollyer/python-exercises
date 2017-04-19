@@ -24,6 +24,7 @@ Each program has a specification at the beginning of the script. To run an inter
 - [x] Format tip_calc.py to display 2 decimal places
 - [ ] Complete Bonus Problem in list_exercises.py
 - [x] Complete Ceasar Cipher in string_exercises.py
+- [ ] Create alternate Caesar Cipher using ord()
 
 ----------
 If you have questions or want to learn together, feel free to e-mail me at aspen.hollyer@gmail.com
