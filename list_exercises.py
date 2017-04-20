@@ -104,7 +104,7 @@ def multiply_matrices(a, b):
         temp = []
         for j in range(len(a[i])):
             sum = 0
-            for k in range(len(b)):
+            for k in range(len(b[i])):
                 sum += (a[i][k] * b[k][j])
             temp.append(sum)
         product.append(temp)
