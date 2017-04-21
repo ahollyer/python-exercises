@@ -10,7 +10,8 @@ def draw_sky():
     bgcolor('#001220')
     pretty_colors = ['#efe9f4', '#fff', '#e05cb2', '#5fbff9', '#1cefff', '#bd5ce0', '#9368ff' ]
 
-    for i in range(40):
+    for i in range(60):
+        speed(10)
         penup()
         x = random.randint(-250, 250)
         setx(x)
