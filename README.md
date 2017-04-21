@@ -8,7 +8,7 @@ This repository contains various programs written in Python 3. These are learnin
 -------
 ### Running the Programs
 
-Each program has a specification at the beginning of the script. To run an interactive program, download the file and run it on the command line. Interactive programs include:
+Each program has a specification at the beginning of the script. To run an interactive program, download the file and run it on the command line. Some interactive programs include:
 
 * madlib.py - Fill in words to generate a silly madlib.
 * guess_the_number.py - Try to determine a random number 1-100 within 5 guesses.
@@ -25,7 +25,7 @@ Each program has a specification at the beginning of the script. To run an inter
 - [x] Format tip_calc.py to display 2 decimal places
 - [x] Complete Bonus Problem in list_exercises.py
 - [x] Complete Ceasar Cipher in string_exercises.py
-- [ ] Create alternate Caesar Cipher using ord()
+- [ ] Create alternate Caesar Cipher using ord()/chr()
 - [ ] Add exception handling to guess_game_2.py
 
 ----------
