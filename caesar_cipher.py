@@ -4,20 +4,22 @@
 
 # 6. Caesar Cipher
 
+# Create a list of characters to use indices for shifting
+CHARS = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n',
+'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+
 # Choose a string to translate
 str = input("Enter a string to shift: ").lower()
 
 
 # Determine the amount to shift
-shift_key = int(input("How much do you want to shift? Enter an integer. Positive numbers encrypt, while negative numbers decrypt: "))
+shift_key = int(input("How much do you want to shift? Enter an integer."))
 
 
 
 # Create a function that accepts the string & shift key
 def c_shift(str, shift_key):
 
-    # Create a list of characters to use indices for shifting
-    chars = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 
     # Create an empty string to add shifted chars
     shifted_str = ""
