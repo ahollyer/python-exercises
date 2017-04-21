@@ -5,15 +5,29 @@
 from turtle import *
 
 # 1. An equilateral triangle
-def draw_triangle(size, color, wait=False):
-    pencolor(color)
-    fillcolor(color)
+def draw_triangle_up(size, pcolor='black', fcolor='white', wait=False):
+    pencolor(pcolor)
+    fillcolor(fcolor)
+    begin_fill()
     for i in range(3):
         forward(size)
         left(120)
+    end_fill()
     if wait:
         mainloop()
-#draw_triangle()
+#draw_triangle_up()
+
+def draw_triangle_down(size, pcolor='black', fcolor='white', wait=False):
+    pencolor(pcolor)
+    fillcolor(fcolor)
+    begin_fill()
+    for i in range(3):
+        forward(size)
+        right(120)
+    end_fill()
+    if wait:
+        mainloop()
+#draw_triangle_down()
 
 # 2. A square
 def draw_square(size, color, wait=False):
@@ -62,7 +76,6 @@ def draw_octagon(size, wait=False):
 # 6. A star
 def draw_star(size, color, wait=False):
     pencolor(color)
-    fillcolor(color)
     for i in range(5):
         forward(size)
         right(144)
@@ -79,27 +92,72 @@ def draw_circle(size, color, wait=False):
 #draw_circle()
 
 # BONUS STUFF
-def draw_trapezoid(size, pcolor, fcolor, wait=False):
+def draw_trapezoid(size, pcolor='black', fcolor='white', wait=False):
     pencolor(pcolor)
     fillcolor(fcolor)
-    forward
+    begin_fill()
+    forward(size)
+    left(120)
+    forward(size/2)
+    left(60)
+    forward(size/2)
+    left(60)
+    forward(size/2)
+    left(120)
+    forward(size)
+    end_fill()
+    if wait:
+        mainloop()
+#draw_trapezoid(100, pcolor='blue', fcolor='lightblue')
 
-# def draw_stuff():
-#     print("\nINSTRUCTIONS: You can draw lots of stuff. It's so cool man. Here's what you can draw:\n\ntriangle\nsquare\npentagon\nhexagon\noxagon\nstar\ncircle")
-#
-#     ans = input("\nWhat do you want to draw? ")
-#
-#     shapes = {  "triangle" : draw_triangle(),
-#                 "square" : draw_square(),
-#                 "pentagon" : draw_pentagon(),
-#                 "hexagon" : draw_hexagon(),
-#                 "oxagon" : draw_octagon(),
-#                 "star" : draw_star(),
-#                 "circle" : draw_circle() }
-#
-#
-#     shapes.get(ans)
-#
-#
-# if __name__ == "__main__":
-#     draw_stuff()
+def draw_trapezoid_mirror(size, pcolor='black', fcolor='white', wait=False):
+    pencolor(pcolor)
+    fillcolor(fcolor)
+    begin_fill()
+    forward(size/2)
+    right(120)
+    forward(size/2)
+    right(60)
+    forward(size/2)
+    right(60)
+    forward(size)
+    right(120)
+    forward(size)
+    end_fill()
+    if wait:
+        mainloop()
+#draw_trapezoid(100, pcolor='blue', fcolor='lightblue')
+
+def draw_rhombus(size, pcolor='black', fcolor='white', wait=False):
+    pencolor(pcolor)
+    fillcolor(fcolor)
+    begin_fill()
+    forward(size)
+    left(120)
+    forward(size)
+    left(60)
+    forward(size)
+    left(120)
+    forward(size)
+    left(60)
+    end_fill()
+    if wait:
+        mainloop()
+#draw_rhombus(100)
+
+def draw_rhombus_mirror(size, pcolor='black', fcolor='white', wait=False):
+    pencolor(pcolor)
+    fillcolor(fcolor)
+    begin_fill()
+    forward(size)
+    right(120)
+    forward(size)
+    right(60)
+    forward(size)
+    right(120)
+    forward(size)
+    right(60)
+    end_fill()
+    if wait:
+        mainloop()
+#draw_rhombus(100)
