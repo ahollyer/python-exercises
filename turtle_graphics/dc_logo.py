@@ -7,7 +7,7 @@ import random
 import shapes
 
 def draw_logo():
-    speed(7)
+    speed(8)
     penup()
     setpos(-300, 100)
     pendown()
