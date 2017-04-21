@@ -6,10 +6,12 @@ from turtle import *
 import random
 import shapes
 
+
 def draw_logo():
-    speed(8)
+    hideturtle()
     penup()
-    setpos(-300, 100)
+    speed(9)
+    setpos(-250, 100)
     pendown()
     shapes.draw_trapezoid(100, pcolor='#7EC04B', fcolor='#7EC04B')
     shapes.draw_rhombus(50, pcolor='#5D8842', fcolor='#5D8842')
